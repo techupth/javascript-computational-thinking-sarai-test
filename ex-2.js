@@ -1,6 +1,15 @@
+//Exercise 2
 function countVowels(words) {
-  // Start coding here
+  let vowels = "aeiou";
+  let count = 0;
+
+  for (let i = 0; i < words.length; i++) {
+    if (vowels.includes(words[i].toLowerCase())) {
+      count++;
+    }
+  }
+  return count;
 }
 
-countVowels("Hello World"); // Output: 3
-countVowels("TechUp"); // Output: 2
+console.log(countVowels("Hello World")); // Output: 3
+console.log(countVowels("TechUp")); // Output: 2
