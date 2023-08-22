@@ -1,5 +1,6 @@
 let numbers = [10, 20, 30];
 let anotherNumbers = [2, 4, 6];
+let test 
 
 function addNumber(numbers, amount) {
   // Start coding here
